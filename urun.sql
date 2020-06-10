@@ -1,11 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 4.9.0.1
--- https://www.phpmyadmin.net/
---
--- Anamakine: 127.0.0.1
--- Üretim Zamanı: 10 Haz 2020, 10:51:59
--- Sunucu sürümü: 10.4.6-MariaDB
--- PHP Sürümü: 7.3.9
+-- UPDATE urun SET stokmiktari = stokmiktari + 40 WHERE id = 1  Burada Urun Alındığından Dolayı stokmiktarı ekleme yapılmışıtr
+-- UPDATE urun SET stokmiktari = stokmiktari - 40 WHERE id = 1  Burada Urun Alındığından Dolayı stokmiktarı çıkartma yapılmışıtr
+-- Bu Veritabanı Demodur Yeni Tablolar Eklenerek Zengileştirebilirsiniz
+-- Güncelleme İşlemini Trigger İLede Yapabilirisiniz
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
